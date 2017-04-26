@@ -2,8 +2,20 @@
  
 [![Software License][ico-license]][link-license]
 [![Build Status][ico-travis]][link-travis]
+
+# Appreciation
+
+Thanks to CodelyTV to make this Scala seed.
+Thanks to [Albert][link-to-albert], from Intent HQ, to give us the permission to use their kata.
+
+[Original source][link-to-intenthq-kata-src]
+
+[Original test][link-to-intenthq-kata-test]
+
+
+## Repository related information
  
-## Introduction 
+### Introduction 
 
 This is a repository intended to serve as a starting point if you want to bootstrap a project in Scala.
  
@@ -19,7 +31,7 @@ It could be useful if you want to start from scratch a kata or a little exercise
   * [`.editorconfig`][link-editorconfig]
   * [`.travis.yml`][link-travis-yml]
 
-## How To Start
+### How To Start
 
 1. Clone this repository `git clone https://github.com/CodelyTV/scala_bootstrap`.
 2. Run [SBT](http://www.scala-sbt.org/) on the project directory `sbt`.
@@ -28,7 +40,7 @@ It could be useful if you want to start from scratch a kata or a little exercise
 5. Check the [scalaFmt](http://scalafmt.org) with `tf` command to check the code style and apply guidelines with `f`.
 6. Start your project!
 
-## Pre-push Git hook
+### Pre-push Git hook
 
 There's one Git hook included. It's inside the `doc/hooks` folder and it will run the `prep` SBT task before pushing to any remote.
 
@@ -38,18 +50,18 @@ You can define what this task does just modifying the `prep` task in the `build.
  
 If you want to install this hook, just `cd doc/hooks` and run `./install-hooks.sh`.
 
-## Other programming languages
+### Other programming languages
 
 * [PHP](https://github.com/CodelyTV/php-bootstrap)
 * [Scala](https://github.com/CodelyTV/scala_bootstrap)
 
-## About
+### About
 
 This hopefully helpful utility has been developed by [CodelyTV][link-author] and [contributors][link-contributors].
 
 We'll try to maintain this project as simple as possible, but Pull Requests are welcomed!
 
-## License
+### License
 
 The MIT License (MIT). Please see [License File][link-license] for more information.
 
@@ -67,3 +79,6 @@ The MIT License (MIT). Please see [License File][link-license] for more informat
 [link-travis-yml]: .travis.yml           
 [link-author]: https://github.com/CodelyTV
 [link-contributors]: ../../contributors
+[link-to-intenthq-kata-src]: https://github.com/intenthq/code-challenges/blob/master/java_scala/src/main/scala/com/intenthq/challenge/SEnigma.scala
+[link-to-intenthq-kata-test]: https://github.com/intenthq/code-challenges/blob/master/java_scala/src/test/scala/com/intenthq/challenge/SEnigmaSpec.scala
+[link-to-albert]: https://github.com/albertpastrana
